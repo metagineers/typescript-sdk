@@ -5,10 +5,10 @@ import { ChainId, SUPPORTED_CHAIN_ID } from "./chains";
  * @internal
  */
 export const OZ_DEFENDER_FORWARDER_ADDRESS =
-  "0xc82BbE41f2cF04e3a8efA18F7032BDD7f6d98a81";
+  "0x96d367991c5871C4731F51E618108C431f589D0e";
 
-const TWRegistry_address = "0x7c487845f98938Bb955B1D5AD069d9a30e4131fd";
-const TWFactory_address = "0x5DBC7B840baa9daBcBe9D2492E45D7244B54A2A0";
+const TWRegistry_address = "0x77DdCB9c3485e715A1Ad2F385D840125B8D31817";
+const TWFactory_address = "0xEE47648A2FE9fBd8EF6CF10DC96837cD756E4107";
 const BYOCRegistry_address = "0x61Bb02795b4fF5248169A54D9f149C4557B0B7de"; // TODO finalize, this is mumbai only
 
 /**
@@ -53,7 +53,7 @@ export const CONTRACT_ADDRESSES: Record<
     byocFactory: AddressZero,
   },
   [ChainId.Mumbai]: {
-    biconomyForwarder: "0x9399BB24DBB5C4b782C70c2969F58716Ebbd6a3b",
+    biconomyForwarder: "0x96d367991c5871C4731F51E618108C431f589D0e",
     twFactory: TWFactory_address,
     twRegistry: TWRegistry_address,
     twBYOCRegistry: "0x3F17972CB27506eb4a6a3D59659e0B57a43fd16C",
